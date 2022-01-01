@@ -1,0 +1,63 @@
+.locationchunk {
+  background: #9fd9e3;
+  display: inline-block;
+  width: 35%;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  margin-top: 5px;
+  margin-bottom: 20px;
+/*  box-shadow: 0 0 1px 1px #aaa;*/
+  color: white;
+  text-shadow: 1px 1px #555;
+  font-weight: 700;
+}
+
+.locationheader {
+  margin: 5px;
+  font-family: 'Caveat', sans-serif;
+  font-size: 30px;
+}
+
+.storepic {
+  height: 20vw;
+  max-height: 200px;
+  border: 6px solid white;
+}
+
+.locationinfo {
+  font-size: min(2vw, 15px);
+  margin-bottom: 10px;
+  font-family: 'Arvo';
+}
+
+.address {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    .locationchunk {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+      padding-bottom: 10px;
+    }
+  
+  .locationheader {
+    font-size: 35px;
+  }
+
+  .storepic {
+    height: 170px;
+  }
+
+  .locationinfo {
+    font-size: 15px;
+  }
+
+  .address {
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+}

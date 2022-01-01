@@ -1,0 +1,71 @@
+#page-container {
+  text-align: center;
+}
+
+.subheader {
+  font-family: 'Caveat', sans-serif;
+  font-size: 20px;
+}
+
+.contactvector {
+  height: min(80px, 15vw);
+}
+
+#giftcardvector {
+  height: 50px;
+}
+
+.contactrow {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+}
+
+.contactcol {
+  flex-grow: 1;
+  width: 20%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+
+.contactblurb {
+  max-width: 600px;
+  margin: auto;
+}
+
+#giftcardcontainer {
+  display: inline-block;
+  max-width: 700px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 30px;
+}
+
+#giftcardimg {
+  float: left;
+  padding-top: calc(120px - 10%);
+}
+
+#giftcardtext {
+  float: right;
+  width: calc(100% - 120px);
+}
+
+.cardlink {
+  display: inline-block;
+  
+  color: white;
+  font-size: 14px;
+  font-family: Arvo;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+  background-color: #9fd9e3;
+  text-shadow: 1px 1px #303030;
+  box-shadow: 0 0 1px 1px grey;
+  padding: 5px;
+  padding-right: 10px;
+  border-radius: 5px;
+}

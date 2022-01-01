@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+}
+
+#headerdiv {
+  background-color: white;
+  padding: 10px 0 0 0;
+  transition: 0.5s;
+}
+
+#headercontainer {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px 0 20px;
+  text-align: center;
+}
+
+#helloRobinLogo {
+  height: 90px;
+  display: inline-block;
+  vertical-align: bottom;
+  transition: 0.5s;
+  margin: -8px 30px 0 0;
+
+}
+
+#navdivs .navdiv {
+    clear: both;
+}
+
+#navdivs {
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.navdiv {
+  font-size: 16px;
+  display: inline-block;
+  font-family: arvo;
+  font-weight: 700;
+  text-shadow: 1px 1px #303030;
+  background-color: #9fd9e3;
+  border-radius: 3px;
+  margin: 0 5px 12px 5px;
+  padding: 5px 10px 5px 10px;
+  letter-spacing: 1.3px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+label {
+  font-size: 26px;
+  display: none;
+  width: 26px;
+  float: right;
+  margin-right: 5px;
+}
+
+#toggle {
+    display: none;
+}
+
+
+@media only screen and (max-width: 685px) {
+    label {
+      display: block;
+      cursor: pointer;
+      margin-top: -2px;
+    }
+  
+    #navdivs {
+        width: 100%;
+        display: none;
+        margin-bottom: 10px;
+    }
+  
+    #navdivs .navdiv {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 2px;
+    }
+  
+    #toggle:checked + #navdivs {
+        display: block;
+    }
+  
+   
+    #helloRobinLogo {
+        float: left;
+    }
+  
+}

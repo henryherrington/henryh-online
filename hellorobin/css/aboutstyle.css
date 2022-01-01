@@ -1,0 +1,60 @@
+#textconvo {
+  max-width: 320px;
+  height: 276px;
+  margin: auto;
+  text-align: left;
+/*  border: 1px solid red;*/
+}
+
+.bluemessage, .whitemessage {
+  padding: 3px 7px 3px 7px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 3px 0 3px 0;;
+  max-width: 200px;
+}
+
+.bluemessage {
+  background-color: lightskyblue;
+  color: white;
+  float: left;
+  clear: right;
+}
+
+.whitemessage {
+  background-color: lightgray;
+  float: right;
+  clear: left;
+}
+
+#flickity-wrap {
+  min-height: 1000px;
+}
+
+.carousel {
+  background: white;
+}
+
+.carousel img {
+  display: block;
+  height: 190px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 10px solid lightblue;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel img {
+    height: 300px;
+  }
+}
+
+.readmore {
+  color: black;
+  text-decoration: underline;
+  line-height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}

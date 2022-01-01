@@ -1,0 +1,241 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/2ccfbec904.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/ico" href="/favicon.ico">
+        <link rel="icon" type="image/png" href="/favicon.png">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            let phoneNumber = 0;
+
+            $(document).ready(function(){
+                $("#phone-icon").click(function(){
+                    if (phoneNumber === 0) {
+                        $("#phone-number").fadeIn();
+                        phoneNumber = 1;
+                    }
+                    else if (phoneNumber === 1) {
+                        $("#phone-number").fadeOut();
+                        phoneNumber = 0;
+                    }  
+                });
+            });
+        </script>
+        <title>Henry Herrington</title>
+    </head>
+    <body>
+        <div class="screen-background scanlines">
+            <div id="screen-content">
+                <table id="contact-table">
+                    <tr>
+                        <td><a target="_blank" href="https://www.linkedin.com/in/henry-herrington-8a885b199/"><i class="fa fa-linkedin"></i></a></td>
+                        <td><i onclick = "openMail()" class="fas fa-envelope"></i></td>
+                        <td><i class="fas fa-phone" id="phone-icon"></i></td>
+                        <td><span id="phone-number" style="display: none">(650) 644-7114</span></td>
+                    </tr>
+                </table>
+                <a target="_blank" href="Herrington.Resume.pdf" id="resume-link"><i class="fas fa-file"></i> Resume</a>
+                <div id="title">
+                    Henry Herrington
+                </div>
+                <div id="bio">
+                    CS Student &#9679; Web Developer &#9679; Puzzle Enthusiast
+                </div>
+                
+                <div class="content-block" id="skills-block">
+                    <div class="block-title">Languages and Skills</div>
+                    <div class="skill-block">
+                        <i class="skill-icon fab fa-java"></i><br>
+                        Java
+                    </div>
+                    <div class="skill-block">
+                        <i class="skill-icon fab fa-js-square"></i><br>
+                        JavaScript
+                    </div>
+                    <div class="skill-block">
+                        <i class="skill-icon fab fa-html5"></i><br>
+                        HTML
+                    </div>
+                    <div class="skill-block">
+                        <i class="skill-icon fab fa-css3-alt"></i><br>
+                        CSS
+                    </div>
+                    <div class="skill-block">
+                        <i class="skill-icon fab fa-angular"></i><br>
+                        Angular
+                    </div>
+                    <div class="skill-block">
+                        <i class="skill-icon fab fa-react"></i><br>
+                        React
+                    </div>
+                    <div class="skill-block">
+                        <i class="skill-icon fas fa-database"></i><br>
+                        MySQL
+                    </div>
+                    <div class="skill-block">
+                        <i class="skill-icon fab fa-php"></i><br>
+                        PHP
+                    </div>
+                    <div class="skill-block">
+                        <i class="skill-icon fas fa-laptop-code"></i><br>
+                        C
+                    </div>
+                    <div class="skill-block">
+                        <i class="skill-icon fab fa-python"></i></i><br>
+                        Python
+                    </div>
+                    <div class="skill-block">
+                        <i class="skill-icon fas fa-flask"></i></i><br>
+                        Flask
+                    </div>
+                    <div class="skill-block">
+                        <i class="skill-icon fab fa-node"></i><br>
+                        Node.js
+                    </div> 
+                </div>
+
+                <div class="content-block">
+                    <div class="block-title">Professional Experience</div>
+                    <table>
+                        <tr>
+                            <td class="date-col"><div class="date-span">Summer 2021</div></td>
+                            <td class="info-col"><b>Software Engineer Intern,</b>
+                                <a href="https://www.capitalone.com/" class="exp-link" target="_blank"><b>Capital One</b></a><br>
+                                Used Angular to develop the front end of a responsive virtual card management page. Implemented mock API calls using a JSON server and included robust unit tests.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="date-col"><div class="date-span">Summer 2020</div></td>
+                            <td class="info-col"><b>Software Engineer Intern,</b>
+                                <a href="https://nautilustech.ai/" class="exp-link" target="_blank"><b>Nautilus Software Technologies</b></a><br>
+                                Developed a programmable web-based chatbot with React used to teach JavaScript to students. Implemented natural language processing via integration with Google Dialogflow API.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="date-col"><div class="date-span">Summer 2019</div></td>
+                            <td class="info-col"><b>Event Manager,</b>
+                                <a href="https://www.puzzlebreak.us/" class="exp-link" target="_blank"><b>Puzzle Break</b></a><br>
+                                Facilitated teambuilding puzzle events at America's first escape room.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="content-block">
+                    <div class="block-title">Extracirriculars</div>
+                    <table>
+                        <tr>
+                            <td class="date-col"><div class="date-span">Fall<br>2021</div></td>
+                            <td class="info-col"><b>Lab T.A.,</b>
+                                <a href="https://www.cs.princeton.edu/ugrad" class="exp-link" target="_blank"><b>Princeton COS Department</b></a><br>
+                                Assists students one-on-one as they complete Java assignments in introductory Computer Science course COS 126.
+                                </td>
+                        </tr>
+                        <tr>
+                            <td class="date-col"><div class="date-span">Fall<br>2020</div></td>
+                            <td class="info-col"><b>Tech Chair,</b>
+                                <a href="http://nassauweekly.com/" class="exp-link" target="_blank"><b>The Nassau Weekly</b></a><br>
+                                Updated and managed the website for The Nassau Weekly, a popular student-run Princeton University newspaper. Involved refactoring custom WordPress themes and integrating Google AdSense.                            </td>
+                        </tr>
+                        <tr>
+                            <td class="date-col"><div class="date-span">Spring 2020</div></td>
+                            <td class="info-col"><a href="https://princetonrocks.com" target="_blank">
+                            <b>Web Designer,</b>
+                            <a href="https://princetonrocks.com" class="exp-link" target="_blank"><b>Princeton University Rock Ensemble</b></a><br>
+                                Developed a dynamic webpage for Princeton's rock band using HTML, CSS, JavaScript, PHP and MySQL.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="date-col"><div class="date-span">2019-2020</div></td>
+                            <td class="info-col"><b>Co-President,</b>
+                                <a href="https://puzzles.princeton.edu" class="exp-link" target="_blank"><b>Princeton Puzzle Club</b></a><br>
+                                Oversaw the annual Princeton Puzzle Hunt, a web-based collegiate logic puzzle competition. Worked with puzzle writers and web and finance teams to design the hunt, develop the website, and raise over $5,000.                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="content-block" id="education-block">
+                    <div class="block-title">Education</div>
+                        <table>
+                            <tr>
+                                <td class="date-col"><div class="date-span">2018 - 2022</div></td>
+                                <td class="info-col"><b>Princeton University</b><br>
+                                    Computer Science A.B.<br>
+                                    GPA: 3.83
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="date-col"><div class="date-span">2013 - 2017</div></td>
+                                <td class="info-col"><b>Lakeside School</b><br>
+                                    High School Diploma</td>
+
+                            </tr>
+                        </table>
+                </div>
+
+                <div class="content-block" id="projects-block">
+                    <div class="block-title">Sample Projects</div>
+                    <a href="http://34.92.103.169/" target="_blank">
+                        <div class="project-block">
+                            <i class="fas fa-robot project-icon"></i><br>
+                            Nemo Bot
+                        </div>
+                    </a>
+                    <a href="https://princetonrocks.com" target="_blank">
+                        <div class="project-block">
+                            <i class="fas fa-guitar project-icon"></i><br>
+                            PURE
+                        </div>
+                    </a>
+                    <a href="https://henryh.online/hellorobin" target="_blank">
+                        <div class="project-block">
+                            <i class="fas fa-cookie project-icon"></i><br>
+                            Hello Robin
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div id="off-screen"></div>
+        <div class="screen-dust"></div>
+        <div class="shell" id="shell-left"></div>
+        <div class="shell" id="shell-right"></div>
+        <div class="shell" id="shell-top"></div>
+        <div class="shell" id="shell-bottom"></div>
+        <div id="shell-outer-sides"></div>
+        <div id="shell-outer-top-bottom"></div>
+        <div id="button-container"><button id="power-button" onclick="togglePower()"></button> <i class="fas fa-power-off"></i></div>
+        <script>
+            let computerPower = 1;
+            function togglePower() {
+                if (computerPower === 1) {
+                    document.getElementById("button-container").style.color = "black";
+                    document.getElementById("off-screen").style.display = "block";
+                    document.getElementById("screen-content").style.display = "none";
+                    computerPower = 0;
+                }
+                else if (computerPower === 0) {
+                    document.getElementById("button-container").style.color = "#6fff00";
+                    document.getElementById("off-screen").style.display = "none";
+                    document.getElementById("screen-content").style.display = "block";
+                    computerPower = 1;
+                }
+            }
+
+            function togglePhone() {
+                console.log("going");
+                document.getElementById("phone-number").style.color = "#6fff00";
+                document.getElementById("phone-number").style.testShadow = "0 0 3px #6fff00";
+                console.log("done");
+            }
+
+            function openMail() {
+                window.location.href = "mailto:henrydh@princeton.edu"
+            }
+        </script>
+    </body>
+</html>

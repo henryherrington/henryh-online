@@ -1,0 +1,72 @@
+table {
+  margin: auto;
+  margin-top: 0;
+  text-align: left;
+}
+
+.typecol {
+  font-family: 'Caveat', sans-serif;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 15px;
+}
+
+#content-wrap {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+#contactform {
+  width: min(80%, 500px);
+  margin: auto;
+  margin-top: 35px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  background-color: #9fd9e3;
+  font-family: Caveat;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px grey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 95%;
+  height: 24px;
+  border: none;
+  margin-bottom: 10px;
+  
+  font-family: sans-serif;
+  color: black;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+
+input[type=submit] {
+  border: none;
+  background: none;
+  font-family: Caveat;
+  font-size: 24px;
+  color: white;
+  text-shadow: 1px 1px grey;
+  margin-top: 6px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 100px;
+  width: 95%;
+  border: none;
+  
+  font-family: sans-serif;
+  color: black;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+
+input, textarea {
+  border-radius: 5px;
+}
