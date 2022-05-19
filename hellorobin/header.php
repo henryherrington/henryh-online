@@ -14,15 +14,15 @@
   <header>
     <div id="headerdiv">
       <div id="headercontainer">
-      <a href="index"><img id="helloRobinLogo" src="https://storage.googleapis.com/hello_robin_resources/helloRobinLogo.png"></a>
+      <a href="index.php"><img id="helloRobinLogo" src="https://storage.googleapis.com/hello_robin_resources/helloRobinLogo.png"></a>
       <label for="toggle">&#9776;</label>
       <input type="checkbox" id="toggle"/>
       <div id="navdivs">
-        <a href="index"><div class="navdiv">Home</div></a>
-        <a href="cookies"><div class="navdiv">Cookies</div></a>
-        <a href="about"><div class="navdiv">About</div></a>
-        <a href="order"><div class="navdiv">Order</div></a>
-        <a href="contact"><div class="navdiv">Contact</div></a>
+        <a href="index.php"><div class="navdiv">Home</div></a>
+        <a href="cookies.php"><div class="navdiv">Cookies</div></a>
+        <a href="about.php"><div class="navdiv">About</div></a>
+        <a href="order.php"><div class="navdiv">Order</div></a>
+        <a href="contact.php"><div class="navdiv">Contact</div></a>
       </div>
     </div>
     </div>

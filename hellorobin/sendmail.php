@@ -11,7 +11,7 @@ if ($_POST["submit"]) {
     $headers .= 'From:' . $sendername . '<' . $senderemail . '>' . "\r\n";
     $mailBody = '' . $message . "<br><br>Sent from hellorobincookies.com";
     if (mail($recipient, $subject, $mailBody, $headers)) {
-        header("Location: contact");
+        header("Location: contact.php");
         exit;
     } else {
         echo "could not send email"; // something wrrong with your server config
